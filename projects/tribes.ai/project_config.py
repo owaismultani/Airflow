@@ -14,7 +14,7 @@ LOGGER = logging.getLogger()
 LOGGER.addHandler(logging.StreamHandler(sys.stdout))
 
 
-NEO4J_URL = 'bolt://neo4j:test@localhost:7687'
+NEO4J_URL = 'bolt://neo4j:test@neo4j:7687'
 
 USERS = ["vinit@tribes.ai", "guilermo@tribes.ai", "christian@tribes.ai", "elly@tribes.ai", "owais@tribes.ai"]
 
